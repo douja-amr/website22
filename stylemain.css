@@ -45,7 +45,6 @@ li {
     padding: 10px;
     list-style-type: none;
     align-items: flex-end;
-    cursor: pointer;
    color: black;
     
     font-size: 14px;
@@ -53,12 +52,19 @@ li {
 
 }
 
+.link-nav:hover {
+    color: #feca57;
+}
 
 
 ul {
    margin-left: 230px;
    margin-top: 20px;
 
+}
+.link-nav {
+    text-decoration: none;
+    color: black;
 }
 .but2 {
     margin: 20px;
@@ -84,7 +90,6 @@ ul {
     font-weight: 700 !important;
     letter-spacing: 3px;
     background: grey;
-   
     box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.3s ease 0s;
 }
@@ -94,6 +99,9 @@ ul {
     height: 70px;
     margin-left: 2rem;
 }
+
+
+
 
 /* .......................................First section................................................ */
 
@@ -159,7 +167,8 @@ p {
     height: 3px;
     background-color:white;
     border: none;
-    margin-top: 10px;
+    margin-top: 10px; 
+    margin-left: 14px;
 }
 
 .but1 {
@@ -680,7 +689,7 @@ bottom: 250px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     font-size: 10px;
-    height: 300px;
+    height: 250px;
     padding-left: 100px;
     background-color: #333;
        
