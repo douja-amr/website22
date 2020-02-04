@@ -37,6 +37,7 @@ body {
     background-color: white;
     border-bottom: 5px solid #ffbe76;
     align-items: end;
+    
 }
 
 li {
@@ -44,7 +45,7 @@ li {
     padding: 10px;
     list-style-type: none;
     align-items: flex-end;
-  
+    cursor: pointer;
    color: black;
     
     font-size: 14px;
